@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.start{
+    background-color: yellow;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 50px 350px;
+    margin: 50px;
+    text-align: center;
+}
+.start-button{
+    background-color: red;
+    color: aliceblue;
+    width: 70px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.pokedex{
+    text-align: center;
+}
+.button-1{
+    margin-left: 600px;
+    margin-top: 30px;
+    width: 70px;
+}
+.button-search{
+    
+}
