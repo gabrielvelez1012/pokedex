@@ -19,10 +19,13 @@ const Item = () => {
 
     return (
         <div>
-            <button onClick={() => navigate(-1)}>Back</button>
-            <h1>Soy el Item</h1>{userName}
-            {pokemon.name}
-            <img src={pokemon.sprites?.other.dream_world.front_default} alt="" />
+            <button className='button-item' onClick={() => navigate(-1)}>Back</button>
+            <div className='container-item'>
+                <h1 className='soy-item'>Soy</h1>
+                <div className='name-item'>{pokemon.name}</div>
+            </div>
+               
+            <img className='img-item' src={pokemon.sprites?.other.dream_world.front_default} alt="" />
             
         </div>
     );

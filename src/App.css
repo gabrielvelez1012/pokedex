@@ -28,5 +28,25 @@
     width: 70px;
 }
 .button-search{
-    
+    width: 70px;
+}
+.container-item{
+    background-color: rgb(13, 117, 83);
+    border: 1px solid;
+    margin:0% 30%;
+    border-radius: 15px;
+    color: white;
+}
+.button-item{
+    margin-left: 600px;
+    margin-top: 30px;
+}
+.soy-item{
+    text-align: center;
+}
+.name-item{
+    text-align: center;
+}
+.img-item{
+    width: 50%;
 }
